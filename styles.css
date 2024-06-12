@@ -1,0 +1,292 @@
+.header{
+    margin: auto;
+    margin-top: 25px;
+    height: 60px;
+    width: 1090px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+.header a{
+    text-decoration: none;
+}
+.header ul{
+    height: 50px;
+    width: 395px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header ul li{
+    list-style: none;
+    color: #000000;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+}
+.header ul .home a{
+    color: #ff5555;
+}
+.header ul li a:hover{
+    color: #ff5555;
+}
+.header .button{
+    margin-left: 360px;
+    padding: 18px 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.header .button:hover{
+    background-color: #ff5555;
+}
+.main1{
+    margin: auto;
+    margin-right: 20px;
+    height: 753px;
+    width: 90%;
+    display: flex;
+}
+.main1 .main1-text h1{
+    height: 200px;
+    width: 618px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    display: flex;
+    align-items: end;
+}
+.main1 .main1-text h1{
+    background-image: url(Group\ 35896.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.main1 .main1-button{
+    padding-top: 10px;
+    cursor: pointer;
+}
+.main1 .rib .star{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.main1 .main2 .iphone1,.iphone2,.iphone3{
+    height: 700px;
+    width: 450px;
+}
+.main1 .main2 .iphone1{
+       position: relative;
+       left: 10px;
+}
+.main1 .main2 .iphone2{ 
+     padding-top: 20px;
+     position:absolute;
+     right: 100px;
+     z-index: -1;
+     background-image: url(Group\ 35896.png);
+     background-size: contain;
+     transition: all;
+}
+.main1 .main2 .iphone3{
+    padding-top: 30px;
+    position:absolute;
+    right: 150px;
+    z-index: -1;
+}
+.main-section2{
+    margin: auto;
+    height: 720px;
+    width: 90%;
+    display: flex;
+}
+.main-section2 .iphone13 .pro{
+    height: 720px;
+    width: 650px;
+}
+.main-section2 .iphone13 .star{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.main-section2 .features .star .head1{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.main-section2 .features{
+    padding-top: 100px;
+    background-image: url("Group\ 35897.png");
+    background-size: cover;
+}
+.main-section2 .features #cd{
+    color: #ff5555;
+    
+}
+.main-section2 .features h1{
+     font-weight:bolder;
+     font-size: 3em;
+}
+.main-section2 .iphone13{
+    background-image: url("Group\ 35896.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-section3{
+    margin: auto;
+    margin-top: 70px;
+    height: 720px;
+    width: 90%;
+    display: flex;
+}
+.main-section3 .advantages{
+    height: 325px;
+    width: 635px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.main-section3 .advantages .not{
+    height: 50px;
+    display: flex;
+
+}
+.main-section3 .advantages #cd{
+    color: #ff5555;
+}
+.main-section3 .iphone14{
+    position: relative;
+    left: 50px;
+}
+.main-section3 .iphone14{
+    background-image: url("Group\ 35896.png");
+    background-size: cover;
+}
+.main-section4{
+    text-align: center;
+    justify-content: center;
+}
+.content{
+    margin: auto;
+    height: 520px;
+    width: 90%;
+    display: flex;
+}
+.content .people .ppl{
+    height: 500px;
+    width: 500px;
+    background-image: url(Group\ 35896.png);
+    background-position: center;
+}
+.content .desc{
+   padding-top: 100px;
+}
+.faq{
+    margin: auto;
+    height: 720px;
+    width: 90%;
+}
+.faq .hed{
+    height: 128px;
+    width: 500px;
+    margin: 10px;
+}
+.faq h1{
+    font-size: xx-large;
+}
+.faq p{
+    color: #ff5555;
+}
+.faq .cont{
+    margin: auto;
+    height: 600px;
+    width: 90%;
+}
+.faq .cont .cont1{
+    height: 180px;
+    width:600px;
+    color: #ffffff;
+    background-color: #ff5555;
+    border-radius: 5px;
+    margin: 10px;
+}
+.faq .cont .cont1 .que{
+    position: relative;
+    top: 5px;
+}
+.faq .cont .cont2{
+    height: 180px;
+    width: 570px; 
+}
+.faq .cont .cont2 .que{
+    position: relative; 
+    top: 10px;
+    margin-left: 40px;
+}
+.faq .cont{
+     display: flex;
+     flex-wrap: wrap;
+}
+.frame{
+    height: 720px;
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.frame .star{
+    position: relative;
+    top: 200px;
+    right: 100px;
+}
+.frame .fimg{
+    height: 508px;
+    width:90%;
+}
+.panel1{
+    height: 306px;
+    width: 90%;
+    margin: auto;
+    background-color: #ffffff;
+}
+.panel1{
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel1 ul a{
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+.panel1 .i1{
+    margin-top: 10px;
+    display: flex;
+    padding: 5px;
+    height: 50px;
+}
+.panel1 ul .i1 h1{
+    position: relative;
+    bottom: 15px;
+}
+.panel1 ul a:hover{
+    color: #ff5555;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.panel1 ul .subs{
+    height: 200px;
+    width: 380px;
+    position: relative;
+    right: 50px;
+}
+.panel2{
+    height: 60px;
+    width: 100%;
+    border-top: 0.5px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
